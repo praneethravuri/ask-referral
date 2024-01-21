@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Referral Generator",
+    "version": "1.0",
+    "description": "Generate referral messages for job applications.",
+    "browser_action": {
+      "default_popup": "./html/popup.html",
+      "default_icon" : "./images/copy-512.png"
+    },
+    "permissions": ["clipboardWrite"],
+    "content_security_policy": "script-src 'self'; object-src 'self';",
+    "web_accessible_resources": [
+      "popup_script.js"
+    ]
+  }

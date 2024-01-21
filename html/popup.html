@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Referral Generator</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 8px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    textarea {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <label for="fullName">Full Name:</label>
+  <input type="text" id="fullName">
+
+  <label for="companyName">Company Name:</label>
+  <input type="text" id="companyName">
+
+  <button id="generateButton">Generate Referral</button>
+
+  <!-- Update the div to a textarea -->
+<textarea id="referralOutput" rows="4" cols="30"></textarea>
+<button id="copyTextArea">Copy Text</button>
+
+<button id="copyLinks">Copy Links</button>
+
+
+  <script src="../js/popup.js"></script>
+</body>
+</html>
