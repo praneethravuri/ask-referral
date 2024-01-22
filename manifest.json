@@ -7,7 +7,7 @@
       "default_popup": "./src/popup.html",
       "default_icon" : "./src/images/copy-512.png"
     },
-    "permissions": ["clipboardWrite"],
+    "permissions": ["clipboardWrite", "activeTab", "storage"],
     "content_security_policy": "script-src 'self'; object-src 'self';",
     "web_accessible_resources": [
       "popup_script.js"
